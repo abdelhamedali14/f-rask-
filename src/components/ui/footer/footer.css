@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.footer {
+    background-image: url(../../../assets/images/footer.png);
+    width: 100%;
+    height: 345px;
+    background-position: center center;
+}
+.footer_wrapper {
+    padding: 3rem 2rem 0rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: white;
+}
+.about_us {
+    padding-left: 1rem;
+    margin-top: 1rem;
+    color: white;
+    position: relative;
+    top: 100px;
+}
+.about_us ul {
+    list-style: none;
+    display: flex;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.about_us ul li {
+    font-size: 1rem;
+    padding-right: 1rem;
+}
+
+.stores img {
+    margin-right: 0.5rem;
+}
+.location_address {
+    position: relative;
+    top: 70px;
+}
+.middle_logo {
+    position: relative;
+    top: 20px;
+}

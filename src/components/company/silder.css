@@ -1,0 +1,16 @@
+.slider_header {
+  color: #45c0be;
+}
+
+.slider_header {
+  margin-top: 5rem;
+}
+.slider_container {
+  padding: 4rem 0rem;
+
+  background-color: #eef8ff;
+  margin: 4rem 0rem;
+}
+.slid-btn {
+  cursor: pointer;
+}

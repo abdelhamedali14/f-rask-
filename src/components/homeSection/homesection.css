@@ -1,0 +1,12 @@
+.section-title {
+    color: #45c0be;
+}
+.special-btn {
+    padding: 1rem 4rem;
+    color: white;
+    font-size: 1.3rem;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #656472 , #42B2B0)    
+}
+

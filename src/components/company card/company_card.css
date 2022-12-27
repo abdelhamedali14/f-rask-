@@ -1,0 +1,29 @@
+.company_card_wrapper {
+ padding: 1rem 0rem;
+  
+}
+
+.go_To_details {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.company_card {
+    width: 10rem;
+    height: 10rem;
+    background-color: #b6e1da;
+    border-radius: 15px;
+    text-align: center;
+    padding: 1rem;
+    margin: 0 auto;
+}
+.img_Card_wrapper {
+    width: 7rem;
+    height: 5rem;
+    margin-bottom: 1rem;
+}
+.img_Card_wrapper img {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
