@@ -6,12 +6,11 @@
   margin-top: 5rem;
 }
 .slider_container {
-  padding: 4rem 0rem;
   height: 20rem;
-
   background-color: #eef8ff;
   margin: 4rem 0rem;
 }
 .slid-btn {
   cursor: pointer;
+
 }

@@ -26,14 +26,15 @@ const CompanyDetails = () => {
     setCompanyInfo(response[0])
   }
   useEffect(() => {
-    return () => {
+    
       getData(pageId)
-    }
-  }, [])
+    
+  }, [pageId])
+
   return (
     <>
       <div className='details_wrapper py-4'>
-        {companyInfo ? 
+        {companyInfo?
           <div className='text-center'>
             <div className='details_card'>
               <div className='img_Card_wrapper'>
@@ -44,8 +45,8 @@ const CompanyDetails = () => {
             <p>{companyInfo.owner.email}</p>
             <p></p>
           </div>
-         : 
-          <Loader />
+         :<Loader />
+          
         }
         <div className='container'>
           <div className='row d-flex justify-content-between'>
