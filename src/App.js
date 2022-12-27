@@ -1,23 +1,23 @@
 import "./App.css";
-import Slider from "./components/company/Slider";
+import Slider from "./components/slider/Slider";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import CompanyDetails from "./components/companyDtails/CompanyDetails.jsx";
 import NavBar from "./components/ui/navbar/NavBar";
-import HomeSection from "./components/homeSection/HomeSection";
+
 import Footer from "./components/ui/footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <BrowserRouter>
+    <BrowserRouter>
+      <div className="App">
+        <NavBar />
         <Routes>
           <Route path="companyDetails/:id" element={<CompanyDetails />} />
-          <Route path="/" element={<Slider />} />
+          <Route path="/" exact element={<Slider />} />
         </Routes>
-      </BrowserRouter>
-      <Footer/>
-    </div>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 
