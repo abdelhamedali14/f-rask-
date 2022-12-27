@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/f-rask-/static/css/main.ee20e863.css",
+    "main.js": "/f-rask-/static/js/main.3a4cb9d0.js",
+    "static/js/787.90bccdbc.chunk.js": "/f-rask-/static/js/787.90bccdbc.chunk.js",
+    "static/media/image section.svg": "/f-rask-/static/media/image section.482337ef480ced573be527b875aea09f.svg",
+    "static/media/Group 22.svg": "/f-rask-/static/media/Group 22.e1d8cec642e2a98d798a266cc246fad2.svg",
+    "static/media/navbar.png": "/f-rask-/static/media/navbar.5745ff9aeed0ad970093.png",
+    "static/media/footer.png": "/f-rask-/static/media/footer.6fc0d71e40df5b3bbaa5.png",
+    "static/media/navLogo.svg": "/f-rask-/static/media/navLogo.b29c22c554c3cd607d100ede17e42ed8.svg",
+    "index.html": "/f-rask-/index.html",
+    "static/media/logo.svg": "/f-rask-/static/media/logo.09088c14b7875b6da2ef7c3527edbd00.svg",
+    "static/media/prev.svg": "/f-rask-/static/media/prev.918580063d1b7d9295df6810b29b5fbb.svg",
+    "main.ee20e863.css.map": "/f-rask-/static/css/main.ee20e863.css.map",
+    "main.3a4cb9d0.js.map": "/f-rask-/static/js/main.3a4cb9d0.js.map",
+    "787.90bccdbc.chunk.js.map": "/f-rask-/static/js/787.90bccdbc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee20e863.css",
+    "static/js/main.3a4cb9d0.js"
+  ]
+}
