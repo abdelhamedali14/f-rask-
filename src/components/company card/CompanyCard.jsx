@@ -5,7 +5,7 @@ import './company_card.css'
 const CompanyCard = ({ data }) => {
   return (
     <div className='company_card_wrapper'>
-      <Link to={`companyDetails/${data.page}`} className='go_To_details'>
+      <Link to={`/companyDetails/${data.page}`} className='go_To_details'>
         <div className='company_card'>
           <div className='img_Card_wrapper'>
             <img src={data.logo['256px']} alt='' />

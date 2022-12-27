@@ -14,6 +14,8 @@ function App() {
         <Routes>
           <Route path="companyDetails/:id" element={<CompanyDetails />} />
           <Route path="/" exact element={<Slider />} />
+          <Route path="/f-rask-" exact element={<Slider />} />
+          
         </Routes>
         <Footer />
       </div>
